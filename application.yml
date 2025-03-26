@@ -1,0 +1,3 @@
+microservice:
+  endpoints:
+    url: http://PAYMENTSERVICE/payment/process/
