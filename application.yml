@@ -1,3 +1,9 @@
 microservice:
    endpoints:
      url: http://PAYMENTSERVICE/payment/process/
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    hostname: localhost
