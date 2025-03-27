@@ -1,6 +1,6 @@
 microservice:
-   endpoints:
-     url: http://PAYMENTSERVICE/payment/process/
+  endpoints:
+    payment-url: lb://PAYMENTSERVICE/payment/process
 eureka:
   client:
     register-with-eureka: true
