@@ -10,5 +10,5 @@ eureka:
 
 microservice:
   endpoints:
-    payment-url: http://PAYMENTSERVICE/payment/process/
+    payment-url: http://PAYMENT/payment/process/
 
